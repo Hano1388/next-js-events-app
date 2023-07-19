@@ -5,7 +5,7 @@ const DUMMY_EVENTS = [
     description: 'strategize integrated metrics',
     location: '94 Cottonwood Way',
     date: '8/8/2022',
-    image: 'http://dummyimage.com/178x100.png/cc0000/ffffff',
+    image: 'images/berserk-arc.jpeg',
     isFeatured: true,
   },
   {
@@ -14,7 +14,7 @@ const DUMMY_EVENTS = [
     description: 'iterate B2B web services',
     location: '388 Gateway Avenue',
     date: '11/13/2022',
-    image: 'http://dummyimage.com/129x100.png/ff4444/ffffff',
+    image: 'image/berserk-rage.jpeg',
     isFeatured: true,
   },
   {
@@ -23,7 +23,7 @@ const DUMMY_EVENTS = [
     description: 'leverage user-centric users',
     location: '74 Doe Crossing Terrace',
     date: '11/4/2022',
-    image: 'http://dummyimage.com/134x100.png/dddddd/000000',
+    image: 'image/berserk.jpg',
     isFeatured: false,
   },
   {
@@ -32,7 +32,7 @@ const DUMMY_EVENTS = [
     description: 'orchestrate mission-critical e-commerce',
     location: '28094 Logan Plaza',
     date: '6/28/2023',
-    image: 'http://dummyimage.com/123x100.png/dddddd/000000',
+    image: 'image/eclipse-time.jpeg',
     isFeatured: true,
   },
   {
@@ -42,7 +42,7 @@ const DUMMY_EVENTS = [
     description: 'recontextualize one-to-one niches',
     location: '7442 Hanover Circle',
     date: '12/10/2022',
-    image: 'http://dummyimage.com/216x100.png/dddddd/000000',
+    image: 'images/go-berserk.jpeg',
     isFeatured: false,
   },
   {
@@ -51,7 +51,7 @@ const DUMMY_EVENTS = [
     description: 'engineer real-time architectures',
     location: '31 Bashford Alley',
     date: '5/13/2023',
-    image: 'http://dummyimage.com/103x100.png/dddddd/000000',
+    image: 'images/take-a-rest.jpeg',
     isFeatured: true,
   },
   {
@@ -60,7 +60,7 @@ const DUMMY_EVENTS = [
     description: 'unleash extensible infrastructures',
     location: '47645 3rd Circle',
     date: '2/4/2023',
-    image: 'http://dummyimage.com/126x100.png/5fa2dd/ffffff',
+    image: 'images/the-berserk.jpeg',
     isFeatured: true,
   },
 ];
