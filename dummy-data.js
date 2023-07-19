@@ -2,7 +2,8 @@ const DUMMY_EVENTS = [
   {
     id: '8db374e1-2211-4c69-817b-a2c2cec89c5e',
     title: 'Spring in a Small Town (Xiao cheng zhi chun)',
-    description: 'strategize integrated metrics',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     location: '94 Cottonwood Way',
     date: '8/8/2022',
     image: 'images/berserk-arc.jpeg',

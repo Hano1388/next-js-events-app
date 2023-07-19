@@ -1,9 +1,7 @@
+import EventDetails from '../../components/events/EventDetails';
+
 const EventDetailsPage = () => {
-  return (
-    <div>
-      <h1>Event Details Page</h1>
-    </div>
-  );
+  return <EventDetails />;
 };
 
 export default EventDetailsPage;
