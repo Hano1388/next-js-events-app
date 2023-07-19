@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import classNames from './EventDetails.module.css';
 
 const EventDetails = ({ id, title, location, date, image }) => {
   const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
@@ -10,21 +11,23 @@ const EventDetails = ({ id, title, location, date, image }) => {
   const exploreLink = `/events/${id}`;
 
   return (
-    <li>
+    <li className={classNames.event}>
       <img src={'/' + image} alt={title} />
-      <div>
-        <div>
-          <h2>{title}</h2>
-          <div>
-            <time>{humanReadableDate}</time>
-          </div>
-          <div>
-            <address>{location}</address>
+      <div className={classNames.content}>
+        <div className={classNames.content}>
+          <div className={classNames.summary}>
+            <h2>{title}</h2>
+            <div className={classNames.date}>
+              <time>{humanReadableDate}</time>
+            </div>
+            <div className={classNames.address}>
+              <address>{location}</address>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <Link href={exploreLink}>Explore Event</Link>
+        <div className={classNames.actions}>
+          <Link href={exploreLink}>Explore Event</Link>
+        </div>
       </div>
     </li>
   );

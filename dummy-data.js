@@ -14,7 +14,7 @@ const DUMMY_EVENTS = [
     description: 'iterate B2B web services',
     location: '388 Gateway Avenue',
     date: '11/13/2022',
-    image: 'image/berserk-rage.jpeg',
+    image: 'images/berserk-rage.jpeg',
     isFeatured: true,
   },
   {
@@ -23,7 +23,7 @@ const DUMMY_EVENTS = [
     description: 'leverage user-centric users',
     location: '74 Doe Crossing Terrace',
     date: '11/4/2022',
-    image: 'image/berserk.jpg',
+    image: 'images/berserk.jpg',
     isFeatured: false,
   },
   {
@@ -32,7 +32,7 @@ const DUMMY_EVENTS = [
     description: 'orchestrate mission-critical e-commerce',
     location: '28094 Logan Plaza',
     date: '6/28/2023',
-    image: 'image/eclipse-time.jpeg',
+    image: 'images/eclipse-time.jpeg',
     isFeatured: true,
   },
   {
