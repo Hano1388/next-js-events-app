@@ -92,6 +92,7 @@
     .event img {
       width: 40%;
       height: 14rem;
+      min-height: 248px;
     }
   
     .content {

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import classNames from './EventDetails.module.css';
+import Anchor from '../ui/Anchor';
 
 const EventDetails = ({ id, title, location, date, image }) => {
   const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
@@ -26,7 +27,7 @@ const EventDetails = ({ id, title, location, date, image }) => {
           </div>
         </div>
         <div className={classNames.actions}>
-          <Link href={exploreLink}>Explore Event</Link>
+          <Anchor link={exploreLink} text="Explore Event" />
         </div>
       </div>
     </li>
