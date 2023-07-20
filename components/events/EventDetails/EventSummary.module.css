@@ -1,6 +1,6 @@
 .summary {
     width: 100%;
-    min-height: 30vh;
+    height: 30vh;
     background-image: linear-gradient(to bottom left,  #008b79, #1180a1);
   }
   
@@ -15,7 +15,6 @@
   
   @media (min-width: 768px) {
     .summary h1 {
-      font-size: 3rem;
-      height: 45vh;
+      font-size: 2.4rem;
     }
   }

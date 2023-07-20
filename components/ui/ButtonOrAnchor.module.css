@@ -1,4 +1,4 @@
-.anchor {
+.buttonOrAnchor {
     text-decoration: none;
     cursor: pointer;
     font: inherit;
@@ -11,8 +11,8 @@
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
   }
   
-  .anchor:hover,
-  .anchor:active {
+  .buttonOrAnchor:hover,
+  .buttonOrAnchor:active {
     background-color: #02afa1;
     border-color: #02afa1;
   }

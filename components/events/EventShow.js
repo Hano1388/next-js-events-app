@@ -1,5 +1,5 @@
 import classNames from './EventShow.module.css';
-import Anchor from '../ui/Anchor';
+import Anchor from '../ui/ButtonOrAnchor';
 import DateIcon from '../icons/Date';
 import AddressIcon from '../icons/Address';
 import ArrowRightIcon from '../icons/RightArrow';
